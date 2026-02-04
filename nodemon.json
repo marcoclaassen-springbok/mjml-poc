@@ -1,0 +1,5 @@
+{
+  "watch": ["src"],
+  "ext": "mjml",
+  "exec": "npm run build"
+}

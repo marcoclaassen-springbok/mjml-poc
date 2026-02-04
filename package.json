@@ -1,0 +1,24 @@
+{
+  "name": "mjml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "mkdirp output",
+    "build": "mjml src/index.mjml -o output/index.html",
+    "watch": "nodemon",
+    "serve": "browser-sync start --server output --index index.html --files \"output/index.html\" --open local",
+    "dev": "concurrently -k -n WATCH,SERVE npm:watch npm:serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "concurrently": "^9.2.1",
+    "mjml": "^4.18.0",
+    "mkdirp": "^3.0.1",
+    "nodemon": "^3.1.11"
+  }
+}

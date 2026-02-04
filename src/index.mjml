@@ -1,0 +1,71 @@
+<mjml>
+  <mj-body>
+    
+    <mj-section>
+      <mj-column>
+        <mj-image width="162px" src="https://static.mailjet.com/mjml-website/templates/proof-logo.png"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    
+    <mj-section>
+      <mj-column width="33%">
+        <mj-image
+          src="https://static.mailjet.com/mjml-website/templates/proof-main.png"
+          alt=""
+          fluid-on-mobile="true"
+        />
+      </mj-column>
+
+      <mj-column width="33%">
+        <mj-text>
+          <h3>Titel 12345</h3>
+          <p>Dit is de tekst rechts van de afbeelding.</p>
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="33%">
+        <mj-text>
+          <h3>Titel 123</h3>
+          <p>Dit is de tekst rechts van de afbeelding.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FF0000" padding="20px 10px">
+      <mj-column>
+        <mj-image width="170px" src="https://static.mailjet.com/mjml-website/templates/proof-main.png"></mj-image>
+      </mj-column>
+
+      <mj-column>
+        <mj-text font-weight="bold" align="justify" font-size="24px" color="#000" font-family="helvetica">Article Title</mj-text>
+        <mj-text align="justify" font-size="15px" color="#000" font-family="helvetica">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ipsum consequat.</mj-text>
+        <mj-button align="left" background-color="#8ccaca" border-radius="40px" font-family="helvetica" font-size="12px">READ MORE</mj-button>
+      </mj-column>
+    </mj-section>
+
+    
+    <mj-section >
+      <mj-column>
+        <mj-image width="165px" src="https://static.mailjet.com/mjml-website/templates/proof-article-1.png"></mj-image>
+        <mj-text font-weight="bold" align="center" font-size="16px" color="#000" font-family="helvetica">Article Title</mj-text>
+        <mj-text align="justify" font-size="13px" color="#000" font-family="helvetica">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+        <mj-button background-color="#8ccaca" border-radius="40px" font-family="helvetica" font-size="12px">READ MORE</mj-button>
+      </mj-column>
+
+      <mj-column>
+        <mj-image width="165px" src="https://static.mailjet.com/mjml-website/templates/proof-article-2.png"></mj-image>
+        <mj-text font-weight="bold" align="center" font-size="16px" color="#000" font-family="helvetica">Article Title</mj-text>
+        <mj-text align="justify" font-size="13px" color="#000" font-family="helvetica">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+        <mj-button background-color="#8ccaca" border-radius="40px" font-family="helvetica" font-size="12px">READ MORE</mj-button>
+      </mj-column>
+      
+      <mj-column>
+        <mj-image width="165px" src="https://static.mailjet.com/mjml-website/templates/proof-article-3.png"></mj-image>
+        <mj-text font-weight="bold" align="center" font-size="16px" color="#000" font-family="helvetica">Article Title</mj-text>
+        <mj-text align="justify" font-size="13px" color="#000" font-family="helvetica">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+        <mj-button background-color="#8ccaca" border-radius="40px" font-family="helvetica" font-size="12px">READ MORE</mj-button>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
