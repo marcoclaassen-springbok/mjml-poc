@@ -1,71 +1,218 @@
-<mjml>
-  <mj-body>
-    
-    <mj-section>
-      <mj-column>
-        <mj-image width="162px" src="https://static.mailjet.com/mjml-website/templates/proof-logo.png"></mj-image>
-      </mj-column>
-    </mj-section>
+<mjml lang="nl" dir="ltr">
+   <mj-head>
+      <mj-breakpoint width="720px" />
+      <mj-font name="Fira Sans"
+         href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" />
+      <mj-attributes>
+         <mj-all font-family="'Fira Sans', Arial, sans-serif" font-size="16px" color="#2c3e50"/>
 
-    
-    <mj-section>
-      <mj-column width="33%">
-        <mj-image
-          src="https://static.mailjet.com/mjml-website/templates/proof-main.png"
-          alt=""
-          fluid-on-mobile="true"
-        />
-      </mj-column>
+         <mj-class name="btn-main" border-radius="2em" background-color="#fffffe" border="2px solid #fffffe" color="#2c3e50" font-weight="700" inner-padding="12px 24px" />
+         <mj-class name="txt-white" color="#fffffe" />
+         
+         <mj-class name="btn-primary" padding='5px' inner-padding='16px 32px' background-color='#fffffe' color='#2c3e50' border='2px solid #2c3e50' border-radius='30px' font-size='13px' width='' text-transform='uppercase' font-weight='bold'/>
+         <mj-class name="btn-secondary" padding='5px' inner-padding='16px 32px' background-color='#2c3e50' color='#fffffe' border='2px solid #fffffe' border-radius='30px' font-size='13px' width='' text-transform='uppercase' font-weight='bold'/>
+         
+         <mj-class name="bg-dark" background-color="#2c3e50" />
+         <mj-class name="bg-grey" background-color="#f2f2f2" />
 
-      <mj-column width="33%">
-        <mj-text>
-          <h3>Titel 12345</h3>
-          <p>Dit is de tekst rechts van de afbeelding.</p>
-        </mj-text>
-      </mj-column>
+         <mj-class name="bg-color" background-color="#ffffffe" />
+         
+         <mj-class name="p32" padding="32px" />
+         <mj-class name="py32" padding="32px 0" />
+         <mj-class name="px32" padding="0 32px" />
+         <mj-class name="pt32" padding-top="32px" />
+         <mj-class name="pb32" padding-bottom="32px" />
+         <mj-class name="pl32" padding-left="32px" />
+         <mj-class name="pr32" padding-right="32px" />
 
-      <mj-column width="33%">
-        <mj-text>
-          <h3>Titel 123</h3>
-          <p>Dit is de tekst rechts van de afbeelding.</p>
-        </mj-text>
-      </mj-column>
-    </mj-section>
+      </mj-attributes>
 
-    <mj-section background-color="#FF0000" padding="20px 10px">
-      <mj-column>
-        <mj-image width="170px" src="https://static.mailjet.com/mjml-website/templates/proof-main.png"></mj-image>
-      </mj-column>
+      <mj-style inline="inline">
+      .parallax-section {
+        background-attachment: fixed !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </mj-style>
 
-      <mj-column>
-        <mj-text font-weight="bold" align="justify" font-size="24px" color="#000" font-family="helvetica">Article Title</mj-text>
-        <mj-text align="justify" font-size="15px" color="#000" font-family="helvetica">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ipsum consequat.</mj-text>
-        <mj-button align="left" background-color="#8ccaca" border-radius="40px" font-family="helvetica" font-size="12px">READ MORE</mj-button>
-      </mj-column>
-    </mj-section>
+   </mj-head>
+   <mj-body mj-class="bg-color" width="720px">
 
-    
-    <mj-section >
-      <mj-column>
-        <mj-image width="165px" src="https://static.mailjet.com/mjml-website/templates/proof-article-1.png"></mj-image>
-        <mj-text font-weight="bold" align="center" font-size="16px" color="#000" font-family="helvetica">Article Title</mj-text>
-        <mj-text align="justify" font-size="13px" color="#000" font-family="helvetica">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
-        <mj-button background-color="#8ccaca" border-radius="40px" font-family="helvetica" font-size="12px">READ MORE</mj-button>
-      </mj-column>
+      <mj-hero
+            mode="fixed-height"
+            height="400px"
+            background-width="720px"
+            background-height="400px"
+            background-url=
+                "https://picsum.photos/id/16/720/400/"
+            background-color="#2a3448"
+            padding="100px 0px">
+            <mj-spacer height="36px" />
+            <mj-text align="center" color="#FFFFFF" font-size="32px" font-weight="700" line-height="36px">Lorem Ipsum Dolor</mj-text>
+        <mj-text align="center" color="#FFFFFF" font-size="16px" line-height="20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mj-text>
+       </mj-hero>
 
-      <mj-column>
-        <mj-image width="165px" src="https://static.mailjet.com/mjml-website/templates/proof-article-2.png"></mj-image>
-        <mj-text font-weight="bold" align="center" font-size="16px" color="#000" font-family="helvetica">Article Title</mj-text>
-        <mj-text align="justify" font-size="13px" color="#000" font-family="helvetica">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
-        <mj-button background-color="#8ccaca" border-radius="40px" font-family="helvetica" font-size="12px">READ MORE</mj-button>
-      </mj-column>
-      
-      <mj-column>
-        <mj-image width="165px" src="https://static.mailjet.com/mjml-website/templates/proof-article-3.png"></mj-image>
-        <mj-text font-weight="bold" align="center" font-size="16px" color="#000" font-family="helvetica">Article Title</mj-text>
-        <mj-text align="justify" font-size="13px" color="#000" font-family="helvetica">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
-        <mj-button background-color="#8ccaca" border-radius="40px" font-family="helvetica" font-size="12px">READ MORE</mj-button>
-      </mj-column>
-    </mj-section>
-  </mj-body>
+      <mj-wrapper>
+         <mj-section padding="0">
+            <mj-column width="100%">
+               <mj-text align="left" font-size="32px" font-weight="700" line-height="36px" padding="16px 0 8px 0">Lorem Ipsum Dolor </mj-text>
+               <mj-text align="left" font-size="16px" line-height="20px" padding="0 0 16px 0">Lorem ipsum dolor sit amet</mj-text>
+               <mj-text align="left" font-size="16px" line-height="20px" padding="0 0 16px 0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</mj-text>
+               <mj-text align="left" font-size="14px" line-height="20px" padding="0"><i>*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</i></mj-text>
+            </mj-column>
+         </mj-section>
+      </mj-wrapper>
+
+      <mj-wrapper>
+         <mj-section padding="0">
+            <mj-column width="100%">
+               <mj-image src="https://picsum.photos/id/16/720/400/?blur" padding="0" alt="Column Image" />
+            </mj-column>
+         </mj-section>
+         <mj-section mj-class="bg-dark p32">
+            <mj-column width="100%">
+               <mj-text mj-class="txt-white" align="center" font-size="48px" font-weight="700"> Lorem Ipsum Dolor Set </mj-text>
+               <mj-text mj-class="txt-white" align="center" font-size="20px" padding-bottom="32px"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </mj-text>
+               <mj-text align="center" padding-bottom="32px">
+                  <span style="padding:1em 2em; font-weight:700; color:#fffffe; border:dashed 3px #fffffe; border-radius:.5em; display:inline-block;"> TH1S-I5AD-DUMM7-C0D3 </span>
+               </mj-text>
+            </mj-column>
+            <mj-column>
+               <mj-button mj-class="btn-primary" href='{{url}}'>Lorem ipsum &#10140;</mj-button>
+            </mj-column>
+            <mj-column>
+               <mj-button mj-class="btn-secondary" href='{{url}}'>Lorem ipsum &#10140;</mj-button>
+            </mj-column>
+         </mj-section>
+      </mj-wrapper>
+
+      <mj-section padding="32px 0">
+         <mj-column width="50%" vertical-align="middle">
+            <mj-image src="https://picsum.photos/360/360" padding="0" alt="Column Image"  fluid-on-mobile="true"/>
+         </mj-column>
+         <mj-column width="50%" vertical-align="middle" mj-class="p32">
+            <mj-text align="center" font-size="32px" font-weight="700"> Lorem Ipsum Dolor </mj-text>
+            <mj-text align="center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </mj-text>
+            <mj-button mj-class="btn-primary" href="https://www.springbokagency.com"> Lorem ipsum  </mj-button>
+         </mj-column>
+      </mj-section>
+
+      <mj-section padding="0px">
+        <mj-group>
+         <mj-column width="30%" padding="0px">
+            <mj-image padding="0px 0px 20px 0px" src="https://picsum.photos/216/216" alt="Icon 1" />
+            <mj-text align="center" font-weight="700" font-size="24px">Lorem Ipsum</mj-text>
+            <mj-text align="center">Lorem ipsum dolor sit, consectetur adipiscing elit</mj-text>
+            <mj-button mj-class="btn-primary" background-color="transparent" color="#2c3e50" border="2px solid #2c3e50" href="#">Lorem ipsum</mj-button>
+         </mj-column>
+         <mj-column width="5%" padding="0px"></mj-column>
+         <mj-column width="30%" padding="0px">
+            <mj-image padding="0px 0px 20px 0px" src="https://picsum.photos/216/216" alt="Icon 2" />
+            <mj-text align="center" font-weight="700" font-size="24px">Lorem Ipsum</mj-text>
+            <mj-text align="center">Lorem ipsum dolor sit, consectetur adipiscing elit</mj-text>
+            <mj-button mj-class="btn-primary" background-color="transparent" color="#2c3e50" border="2px solid #2c3e50" href="#">Lorem ipsum</mj-button>
+         </mj-column>
+         <mj-column width="5%" padding="0px"></mj-column>
+         <mj-column width="30%" padding="0px">
+            <mj-image padding="0px 0px 20px 0px" src="https://picsum.photos/216/216" alt="Icon 3" />
+            <mj-text align="center" font-weight="700" font-size="24px">Lorem Ipsum</mj-text>
+            <mj-text align="center">Lorem ipsum dolor sit, consectetur adipiscing elit</mj-text>
+            <mj-button mj-class="btn-primary" background-color="transparent" color="#2c3e50" border="2px solid #2c3e50" href="#">Lorem ipsum</mj-button>
+         </mj-column>
+       </mj-group>
+      </mj-section>
+
+      <mj-wrapper>
+         <mj-section direction="rtl" mj-class="bg-grey" padding="0" border-radius="32px">
+          <mj-column vertical-align="middle" width="50%">
+               <mj-image src="https://picsum.photos/id/16/360/360/?blur" padding="0" alt="Hero Image"  fluid-on-mobile="true" />
+            </mj-column>
+            <mj-column direction="ltr" vertical-align="middle" mj-class="p32" width="50%">
+               <mj-text align="center" font-size="32px" font-weight="700"> Lorem Ipsum Dolor Set </mj-text>
+               <mj-text align="center" font-size="16px" padding-bottom="32px"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </mj-text>
+               <mj-button mj-class="btn-secondary" href='{{url}}'>Lorem ipsum &#10140;</mj-button>
+            </mj-column>
+         </mj-section>
+      </mj-wrapper>
+
+
+      <mj-wrapper >
+         <mj-section direction="ltr" padding="0">
+          <mj-column mj-class="bg-dark" vertical-align="middle" width="45%" padding="32px">
+            <mj-image src="https://picsum.photos/id/16/277/277/" alt="Hero Image"  fluid-on-mobile="true" padding="0"/>
+               <mj-text mj-class="txt-white" align="center" font-size="32px" font-weight="700"> Lorem Ipsum Dolor Set </mj-text>
+               <mj-text mj-class="txt-white" align="center" font-size="16px" padding-bottom="32px"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </mj-text>
+               <mj-button mj-class="btn-secondary" href='{{url}}'>Lorem ipsum &#10140;</mj-button>
+            </mj-column>
+            <mj-column  vertical-align="middle" width="5%"><mj-image src="https://picsum.photos/id/16/1/1/" alt="spacer" /></mj-column>
+            <mj-group width="50%" vertical-align="top">
+              <mj-column vertical-align="middle"  width="48%" padding="0 0 20px 0">
+                  <mj-image src="https://picsum.photos/id/16/180/180/" alt="Hero Image" padding="0" width="180px" fluid-on-mobile="true"/>
+                  <mj-text align="center" font-weight="400" font-size="16px" padding="16px">
+                     <h4 style="color:#2c3e50; font-size: 16px; margin: 0;">Lorem Ipsum</h4>
+                     <p style="color:#2c3e50; margin:0;">Lorem ipsum dolor sit</p>
+                     <a href="https://www.springbokagency.com" style="text-decoration:underline;color:#2c3e50;">Lorem ipsum</a>
+                  </mj-text>
+              </mj-column>
+              <mj-column  vertical-align="middle" width="4%"><mj-image src="https://picsum.photos/id/16/1/1/" alt="spacer" /></mj-column>
+              <mj-column vertical-align="middle"  width="48%" padding="0 0 20px 0">
+                  <mj-image src="https://picsum.photos/id/16/180/180/" alt="Hero Image" padding="0" width="180px" fluid-on-mobile="true"/>
+                  <mj-text align="center" font-weight="400" font-size="16px" padding="16px">
+                     <h4 style="color:#2c3e50; font-size: 16px; margin: 0;">Lorem Ipsum</h4>
+                     <p style="color:#2c3e50; margin:0;">Lorem ipsum dolor sit</p>
+                     <a href="https://www.springbokagency.com" style="text-decoration:underline;color:#2c3e50;">Lorem ipsum</a>
+                  </mj-text>
+              </mj-column>
+              <mj-column vertical-align="middle"  width="48%" padding="0">
+                  <mj-image src="https://picsum.photos/id/16/180/180/" alt="Hero Image" padding="0" width="180px" fluid-on-mobile="true"/>
+                  <mj-text align="center" font-weight="400" font-size="16px" padding="16px">
+                     <h4 style="color:#2c3e50; font-size: 16px; margin: 0;">Lorem Ipsum</h4>
+                     <p style="color:#2c3e50; margin:0;">Lorem ipsum dolor sit</p>
+                     <a href="https://www.springbokagency.com" style="text-decoration:underline;color:#2c3e50;">Lorem ipsum</a>
+                  </mj-text>
+              </mj-column>
+              <mj-column  vertical-align="middle" width="4%"><mj-image src="https://picsum.photos/id/16/1/1/" alt="spacer" /></mj-column>
+              <mj-column vertical-align="middle"  width="48%" padding="0">
+                  <mj-image src="https://picsum.photos/id/16/180/180/" alt="Hero Image" padding="0" width="180px" fluid-on-mobile="true"/>
+                  <mj-text align="center" font-weight="400" font-size="16px" padding="16px">
+                     <h4 style="color:#2c3e50; font-size: 16px; margin: 0;">Lorem Ipsum</h4>
+                     <p style="color:#2c3e50; margin:0;">Lorem ipsum dolor sit</p>
+                     <a href="https://www.springbokagency.com" style="text-decoration:underline;color:#2c3e50;">Lorem ipsum</a>
+                  </mj-text>
+              </mj-column>
+            </mj-group>
+         </mj-section>
+      </mj-wrapper>
+
+      <mj-section>
+         <mj-column width="30%" vertical-align="middle">
+            <mj-image src="https://picsum.photos/360/360" padding="0" alt="Thumbnail"  fluid-on-mobile="true"/>
+         </mj-column>
+         <mj-column width="70%" vertical-align="middle" padding="32px">
+            <mj-text font-size="32px" font-weight="700" padding="0 0 8px 0"> Lorem Ipsum Dolor </mj-text>
+            <mj-text  padding="0">
+               <ul style="margin:0; padding-left:20px; line-height: 24px;">
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+               </ul>
+            </mj-text>
+            <mj-button padding="12px 0 0 0" mj-class="btn-primary" background-color="transparent" color="#2c3e50" border="2px solid #2c3e50" align="left" href="#"> Lorem ipsum &#10140; </mj-button>
+         </mj-column>
+      </mj-section>
+      <mj-section mj-class="bg-dark p32">
+         <mj-column width="100%">
+            <mj-text mj-class="txt-white" align="center" font-size="24px" font-weight="700"> What did you think of this email? </mj-text>
+            <mj-text align="center">
+               <a href="#" style="text-decoration:none;">
+               <img src="https://yourzine.slgnt.eu/Portal/ES/b00a62d0-e7a1-4269-9aff-820aa7e0762a/resource/image/SMC/DNS/happy-smiley.png" width="64" style="margin:0 4px;" />
+               </a>
+               <a href="#" style="text-decoration:none;">
+               <img src="https://yourzine.slgnt.eu/Portal/ES/b00a62d0-e7a1-4269-9aff-820aa7e0762a/resource/image/SMC/DNS/angry-smiley.png" width="64" style="margin:0 4px;" />
+               </a>
+            </mj-text>
+         </mj-column>
+      </mj-section>
+   </mj-body>
 </mjml>
