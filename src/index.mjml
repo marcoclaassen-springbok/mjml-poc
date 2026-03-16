@@ -27,23 +27,43 @@
 
       </mj-attributes>
 
-      <mj-style inline="inline">
-      .parallax-section {
-        background-attachment: fixed !important;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-    </mj-style>
+      <mj-style inline="inline"></mj-style>
 
    </mj-head>
    <mj-body mj-class="bg-color" width="720px">
 
- <mj-section>
+<mj-section>
+  <mj-custom-test1 
+    title="Springbok Agency" 
+    href="https://www.springbokagency.com"
+    image-url="https://picsum.photos/200/50"
+    image-height="50px"
+    image-position="left"
+    text-align="left">
+    <mj-text>De hele card is nu klikbaar!</mj-text>
+  </mj-custom-test1>
+</mj-section>
+
+    <mj-section>
       <mj-column>
-        <mj-custom-test>1234</mj-custom-test>
+        <mj-custom-test2>1234</mj-custom-test2>
       </mj-column>
     </mj-section>
+
+    <mj-section>
+  <mj-column>
+    <mj-hotspot 
+      image-url="https://images.unsplash.com/photo-1586023492125-27b2c045efd7" 
+      top="30%" 
+      left="60%" 
+      title="Design Stoel" 
+      textcolor="#ffffff">
+      <mj-text>Dit is de iconische Eames chair, nu in de aanbieding!</mj-text>
+    </mj-hotspot>
+  </mj-column>
+</mj-section>
+
+
 
       <mj-hero
             mode="fixed-height"
