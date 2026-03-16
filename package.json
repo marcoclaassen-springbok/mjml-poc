@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- "scripts": {
-  "prebuild": "mkdirp output",
-  "build": "mjml src/index.mjml -o output/index.html",
-  "watch": "nodemon --watch src --watch components -e mjml,js --exec \"npm run build\"",
-  "serve": "browser-sync start --server \"output\" --files \"output/*.html\" --no-ssi --reload-delay 500 --reload-debounce 500",
-  "dev": "concurrently -k -n \"BUILD,BROWSER\" -c \"magenta,cyan\" \"npm run watch\" \"npm run serve\""
-},
+  "scripts": {
+    "prebuild": "mkdirp output",
+    "build": "node compile.js",
+    "watch": "nodemon --watch . --ext mjml,js --exec \"npm run build\"",
+    "serve": "browser-sync start --server \"output\" --files \"output/*.html\" --no-ssi --reload-delay 500 --reload-debounce 500",
+    "dev": "concurrently -k -n \"BUILD,BROWSER\" -c \"magenta,cyan\" \"npm run watch\" \"npm run serve\""
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

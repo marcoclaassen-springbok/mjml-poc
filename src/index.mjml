@@ -15,7 +15,7 @@
          <mj-class name="bg-dark" background-color="#2c3e50" />
          <mj-class name="bg-grey" background-color="#f2f2f2" />
 
-         <mj-class name="bg-color" background-color="#ffffffe" />
+         <mj-class name="bg-color" background-color="#fffffe" />
          
          <mj-class name="p32" padding="32px" />
          <mj-class name="py32" padding="32px 0" />
@@ -38,6 +38,12 @@
 
    </mj-head>
    <mj-body mj-class="bg-color" width="720px">
+
+ <mj-section>
+      <mj-column>
+        <mj-custom-test>1234</mj-custom-test>
+      </mj-column>
+    </mj-section>
 
       <mj-hero
             mode="fixed-height"
